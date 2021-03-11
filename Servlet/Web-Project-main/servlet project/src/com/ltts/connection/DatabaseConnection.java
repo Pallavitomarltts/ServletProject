@@ -7,7 +7,7 @@ public class DatabaseConnection {
 	public static Connection getConnection() throws Exception
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection  con =DriverManager.getConnection("jdbc:mysql://localhost:3306/vaibhav","root","root");
+		Connection  con =DriverManager.getConnection("jdbc:mysql://localhost:3306/sys","root","root");
 		return con;
 		
 	}
